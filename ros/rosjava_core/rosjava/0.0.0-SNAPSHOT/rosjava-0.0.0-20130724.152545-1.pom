@@ -8,7 +8,7 @@
   <dependencies>
     <dependency>
       <groupId>ros.rosjava_core</groupId>
-      <artifactId>rosjava_messages</artifactId>
+      <artifactId>apache_xmlrpc_server</artifactId>
       <version>0.0.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
@@ -20,7 +20,19 @@
     </dependency>
     <dependency>
       <groupId>ros.rosjava_core</groupId>
-      <artifactId>apache_xmlrpc_server</artifactId>
+      <artifactId>apache_xmlrpc_client</artifactId>
+      <version>0.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ros.rosjava_core</groupId>
+      <artifactId>rosjava_bootstrap</artifactId>
+      <version>0.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>ros.rosjava_core</groupId>
+      <artifactId>rosjava_messages</artifactId>
       <version>0.0.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
@@ -31,15 +43,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>com.springsource.org.apache.commons.logging</artifactId>
-      <version>1.1.1</version>
+      <groupId>ros.rosjava_core</groupId>
+      <artifactId>apache_xmlrpc_common</artifactId>
+      <version>0.0.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>ros.rosjava_core</groupId>
-      <artifactId>rosjava_bootstrap</artifactId>
-      <version>0.0.0-SNAPSHOT</version>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>com.springsource.org.apache.commons.logging</artifactId>
+      <version>1.1.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -47,18 +59,6 @@
       <artifactId>mockito-all</artifactId>
       <version>1.8.5</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>ros.rosjava_core</groupId>
-      <artifactId>apache_xmlrpc_common</artifactId>
-      <version>0.0.0-SNAPSHOT</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>ros.rosjava_core</groupId>
-      <artifactId>apache_xmlrpc_client</artifactId>
-      <version>0.0.0-SNAPSHOT</version>
-      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>dnsjava</groupId>
