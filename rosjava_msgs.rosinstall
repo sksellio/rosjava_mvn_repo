@@ -3,13 +3,25 @@
     uri: https://github.com/jack-oquin/ackermann_msgs-release.git
     version: release/hydro/ackermann_msgs/0.9.0-0
 - git:
+    local-name: actionlib
+    uri: https://github.com/ros-gbp/actionlib-release.git
+    version: release/hydro/actionlib/1.10.1-0
+- git:
     local-name: actionlib_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
     version: release/hydro/actionlib_msgs/1.10.0-0
 - git:
+    local-name: angles
+    uri: https://github.com/ros-gbp/geometry_angles_utils-release.git
+    version: release/hydro/angles/1.9.9-0
+- git:
     local-name: audio_common_msgs
     uri: https://github.com/ros-gbp/audio_common-release.git
     version: release/hydro/audio_common_msgs/0.2.3-0
+- git:
+    local-name: catkin
+    uri: https://github.com/ros-gbp/catkin-release.git
+    version: release/hydro/catkin/0.5.71-0
 - git:
     local-name: common_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
@@ -19,13 +31,21 @@
     uri: https://github.com/yujinrobot-release/rocon_msgs-release.git
     version: release/hydro/concert_msgs/0.5.2-0
 - git:
+    local-name: console_bridge
+    uri: https://github.com/ros-gbp/console_bridge-release.git
+    version: release/hydro/console_bridge/0.2.4-1
+- git:
     local-name: control_msgs
     uri: https://github.com/ros-gbp/control_msgs-release.git
     version: release/hydro/control_msgs/1.2.0-0
 - git:
     local-name: controller_manager_msgs
     uri: https://github.com/ros-gbp/ros_control-release.git
-    version: release/hydro/controller_manager_msgs/0.5.5-0
+    version: release/hydro/controller_manager_msgs/0.5.7-0
+- git:
+    local-name: cpp_common
+    uri: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/hydro/cpp_common/0.3.16-0
 - git:
     local-name: diagnostic_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
@@ -37,7 +57,23 @@
 - git:
     local-name: gazebo_msgs
     uri: https://github.com/ros-gbp/gazebo_ros_pkgs-release.git
-    version: release/hydro/gazebo_msgs/2.1.5-0
+    version: release/hydro/gazebo_msgs/2.2.1-0
+- git:
+    local-name: gencpp
+    uri: https://github.com/ros-gbp/gencpp-release.git
+    version: release/hydro/gencpp/0.4.13-0
+- git:
+    local-name: genlisp
+    uri: https://github.com/ros-gbp/genlisp-release.git
+    version: release/hydro/genlisp/0.4.11-0
+- git:
+    local-name: genmsg
+    uri: https://github.com/ros-gbp/genmsg-release.git
+    version: release/hydro/genmsg/0.4.21-0
+- git:
+    local-name: genpy
+    uri: https://github.com/ros-gbp/genpy-release.git
+    version: release/hydro/genpy/0.4.13-0
 - git:
     local-name: geometry_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
@@ -59,6 +95,18 @@
     uri: https://github.com/ros-gbp/map_msgs-release.git
     version: release/hydro/map_msgs/0.0.2-0
 - git:
+    local-name: message_filters
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/message_filters/1.9.47-0
+- git:
+    local-name: message_generation
+    uri: https://github.com/ros-gbp/message_generation-release.git
+    version: release/hydro/message_generation/0.2.9-0
+- git:
+    local-name: message_runtime
+    uri: https://github.com/ros-gbp/message_runtime-release.git
+    version: release/hydro/message_runtime/0.4.11-0
+- git:
     local-name: move_base_msgs
     uri: https://github.com/ros-gbp/navigation-release.git
     version: release/hydro/move_base_msgs/1.11.3-0
@@ -78,6 +126,10 @@
     local-name: octomap_msgs
     uri: https://github.com/ros-gbp/octomap_msgs-release.git
     version: release/hydro/octomap_msgs/0.3.1-1
+- git:
+    local-name: orocos_kdl
+    uri: https://github.com/smits/orocos-kdl-release.git
+    version: release/hydro/orocos_kdl/1.1.102-0
 - git:
     local-name: pcl_msgs
     uri: https://github.com/ros-gbp/pcl_msgs-release.git
@@ -103,13 +155,81 @@
     uri: https://github.com/yujinrobot-release/rocon_msgs-release.git
     version: release/hydro/rocon_msgs/0.5.2-0
 - git:
+    local-name: rosclean
+    uri: https://github.com/ros-gbp/ros-release.git
+    version: release/hydro/rosclean/1.10.4-0
+- git:
+    local-name: rosconsole
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rosconsole/1.9.47-0
+- git:
+    local-name: roscpp
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/roscpp/1.9.47-0
+- git:
+    local-name: roscpp_serialization
+    uri: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/hydro/roscpp_serialization/0.3.16-0
+- git:
+    local-name: roscpp_traits
+    uri: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/hydro/roscpp_traits/0.3.16-0
+- git:
+    local-name: rosgraph
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rosgraph/1.9.47-0
+- git:
     local-name: rosgraph_msgs
     uri: https://github.com/ros-gbp/ros_comm-release.git
     version: release/hydro/rosgraph_msgs/1.9.47-0
 - git:
+    local-name: roslang
+    uri: https://github.com/ros-gbp/ros-release.git
+    version: release/hydro/roslang/1.10.4-0
+- git:
+    local-name: roslaunch
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/roslaunch/1.9.47-0
+- git:
+    local-name: roslib
+    uri: https://github.com/ros-gbp/ros-release.git
+    version: release/hydro/roslib/1.10.4-0
+- git:
+    local-name: rosmaster
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rosmaster/1.9.47-0
+- git:
+    local-name: rosout
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rosout/1.9.47-0
+- git:
+    local-name: rospack
+    uri: https://github.com/ros-gbp/rospack-release.git
+    version: release/hydro/rospack/2.1.21-0
+- git:
+    local-name: rosparam
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rosparam/1.9.47-0
+- git:
+    local-name: rospy
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rospy/1.9.47-0
+- git:
     local-name: rosserial_msgs
     uri: https://github.com/ros-gbp/rosserial-release
     version: release/hydro/rosserial_msgs/0.5.2-0
+- git:
+    local-name: rostest
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/rostest/1.9.47-0
+- git:
+    local-name: rostime
+    uri: https://github.com/ros-gbp/roscpp_core-release.git
+    version: release/hydro/rostime/0.3.16-0
+- git:
+    local-name: rosunit
+    uri: https://github.com/ros-gbp/ros-release.git
+    version: release/hydro/rosunit/1.10.4-0
 - git:
     local-name: sensor_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
@@ -127,9 +247,21 @@
     uri: https://github.com/ros-gbp/std_msgs-release.git
     version: release/hydro/std_msgs/0.5.7-0
 - git:
+    local-name: std_srvs
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/std_srvs/1.9.47-0
+- git:
     local-name: stereo_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
     version: release/hydro/stereo_msgs/1.10.0-0
+- git:
+    local-name: tf
+    uri: https://github.com/ros-gbp/geometry-release.git
+    version: release/hydro/tf/1.10.5-0
+- git:
+    local-name: tf2
+    uri: https://github.com/ros-gbp/geometry_experimental-release.git
+    version: release/hydro/tf2/0.4.5-0
 - git:
     local-name: tf2_geometry_msgs
     uri: https://github.com/ros-gbp/geometry_experimental-release.git
@@ -138,6 +270,14 @@
     local-name: tf2_msgs
     uri: https://github.com/ros-gbp/geometry_experimental-release.git
     version: release/hydro/tf2_msgs/0.4.5-0
+- git:
+    local-name: tf2_py
+    uri: https://github.com/ros-gbp/geometry_experimental-release.git
+    version: release/hydro/tf2_py/0.4.5-0
+- git:
+    local-name: tf2_ros
+    uri: https://github.com/ros-gbp/geometry_experimental-release.git
+    version: release/hydro/tf2_ros/0.4.5-0
 - git:
     local-name: trajectory_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
@@ -153,9 +293,13 @@
 - git:
     local-name: velodyne_msgs
     uri: https://github.com/ros-drivers-gbp/velodyne-release.git
-    version: release/hydro/velodyne_msgs/1.1.0-0
+    version: release/hydro/velodyne_msgs/1.1.1-0
 - git:
     local-name: visualization_msgs
     uri: https://github.com/ros-gbp/common_msgs-release.git
     version: release/hydro/visualization_msgs/1.10.0-0
+- git:
+    local-name: xmlrpcpp
+    uri: https://github.com/ros-gbp/ros_comm-release.git
+    version: release/hydro/xmlrpcpp/1.9.47-0
 
